@@ -11,6 +11,7 @@ sudo ./install_beat_SPC_Tools.sh
 
 ### Usage :
 ```bash
-wget https://github.com/SDT-yhlee/spc_tools_storage/raw/refs/heads/main/beat_spc_test.tar.gz -O beat_spc_test.tar.gz
+wget https://github.com/SDT-yhlee/spc_tools_storage/raw/refs/heads/\
+main/beat_spc_test.tar.gz -O beat_spc_test.tar.gz && \
 tar -xzf beat_spc_test.tar.gz && chmod +x *.sh && ./run.sh
 ```
